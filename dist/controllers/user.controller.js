@@ -10,11 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.validateAccessCode = exports.createNewAccessCode = void 0;
-const createNewAccessCode = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.send("createNewAccessCode");
-});
+const createNewAccessCode = (req, res) => __awaiter(void 0, void 0, void 0, function* () { });
 exports.createNewAccessCode = createNewAccessCode;
-const validateAccessCode = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.send("validateAccessCode");
-});
+const validateAccessCode = (req, res) => __awaiter(void 0, void 0, void 0, function* () { });
 exports.validateAccessCode = validateAccessCode;

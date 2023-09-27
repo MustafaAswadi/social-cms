@@ -1,11 +1,5 @@
-"use strict";
-
 import { Request, Response } from "express";
 
-export const createNewAccessCode = async (req: Request, res: Response) => {
-  res.send("createNewAccessCode");
-};
+export const createNewAccessCode = async (req: Request, res: Response) => {};
 
-export const validateAccessCode = async (req: Request, res: Response) => {
-  res.send("validateAccessCode");
-};
+export const validateAccessCode = async (req: any, res: Response) => {};

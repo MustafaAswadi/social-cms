@@ -9,9 +9,7 @@ const user_routes_1 = __importDefault(require("./routes/user.routes"));
 dotenv_1.default.config();
 const app = (0, express_1.default)();
 const port = process.env.PORT;
-app.get("/", (req, res) => {
-    res.send("Express + TypeScript Server");
-});
+app.use(express_1.default.json());
 app.use("/user", user_routes_1.default);
 app.listen(port, () => {
     console.log(`⚡️[server]: Server is running at http://localhost:${port}`);

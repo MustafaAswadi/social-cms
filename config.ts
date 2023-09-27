@@ -11,6 +11,9 @@ export const {
   STORAGE_BUCKET,
   MESSAGING_SENDER_ID,
   APP_ID,
+  TWILIO_ACCOUNT_SID,
+  TWILIO_AUTH_TOKEN,
+  TWILIO_NUMBER,
 } = process.env;
 
 export const firebaseConfig = {
@@ -21,4 +24,10 @@ export const firebaseConfig = {
   storageBucket: STORAGE_BUCKET,
   messagingSenderId: MESSAGING_SENDER_ID,
   appId: APP_ID,
+};
+
+export const twilioConfig = {
+  accountSid: TWILIO_ACCOUNT_SID,
+  authToken: TWILIO_AUTH_TOKEN,
+  twilioNumber: TWILIO_NUMBER,
 };
